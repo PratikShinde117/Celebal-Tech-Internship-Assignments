@@ -1,0 +1,4 @@
+Missing values handled by filling numeric and text fields.
+Duplicates removed using drop_duplicates().
+Derived column created: total_amount = final_price * quantity.
+Cleaned dataset saved as cleaned_dataset.csv
