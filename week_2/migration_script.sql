@@ -21,9 +21,9 @@ create table superstore (
     sub_category varchar(50),
     product_name text,
     sales decimal(10,2),
-    quantity INT,
-    discount DECIMAL(5,2),
-    profit DECIMAL(10,2)
+    quantity int,
+    discount decimal(5,2),
+    profit decimal(10,2)
 );
 
 show global variables like 'local_infile';
